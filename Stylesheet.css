@@ -1,31 +1,29 @@
-.banner {
+#banner {
     position: relative;
     background-color: #bf3bd4;
-    padding: 20px;
-    display: grid;
+    padding: 50px;
     z-index: -2;
 }
 
-.bannerText {
+#bannerText {
     position: relative;
     text-align: center;
-    grid-column: 1 / 2;
-    grid-row: 1;
 }
 
-.bannerImage {
+#bannerImage {
     position: absolute;
-    grid-column: 1 / 2;
-    grid-row: 1;
+    top: -10px;
     z-index: -1;
+    padding: 35px;
 }
 
-.bannerImageText {
+#bannerImageText {
     position: relative;
-    top: -120px;
-    right: -40px;
     font-size: 30px;
     font-weight: bold;
     color: #f9a9f2;
+}
 
+#hello {
+    font-size: 50px;
 }
