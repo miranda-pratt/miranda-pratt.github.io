@@ -39,3 +39,9 @@
 #aboutMe {
     padding: 50px;
 }
+
+.logos {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
