@@ -27,3 +27,15 @@
 #hello {
     font-size: 50px;
 }
+
+#imageOfMe{
+    position: relative;
+    width: 250px;
+    height: 325px;
+    top: 40px;
+    right: -200px;
+}
+
+#aboutMe {
+    padding: 50px;
+}
