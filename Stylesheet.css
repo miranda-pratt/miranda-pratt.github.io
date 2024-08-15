@@ -12,7 +12,7 @@
 
 #bannerImage {
     position: absolute;
-    top: -10px;
+    top: 5px;
     z-index: -1;
     padding: 35px;
 }
@@ -22,6 +22,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #f9a9f2;
+    top: 15px;
 }
 
 #hello {
