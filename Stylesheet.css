@@ -25,19 +25,32 @@
 }
 
 #hello {
+    position: relative;
     font-size: 50px;
+    left: -110px;
+}
+
+#welcome {
+    position: relative;
+    left: -100px;
 }
 
 #imageOfMe{
     position: relative;
     width: 250px;
     height: 325px;
-    top: 40px;
-    right: -200px;
+    top: 20px;
+    right: -260px;
 }
 
 #aboutMe {
+    position: relative;
     padding: 50px;
+}
+
+#aboutMeText {
+    position: relative;
+    top: 40px;
 }
 
 .logos {
