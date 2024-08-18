@@ -11,18 +11,10 @@
 }
 
 #bannerImage {
-    position: absolute;
+    position: relative;
     top: 5px;
     z-index: -1;
-    padding: 35px;
-}
-
-#bannerImageText {
-    position: relative;
-    font-size: 30px;
-    font-weight: bold;
-    color: #f9a9f2;
-    top: 15px;
+    height: 150px;
 }
 
 #hello {
