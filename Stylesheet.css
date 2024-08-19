@@ -1,32 +1,30 @@
 #banner {
     position: relative;
-    background-color: #bf3bd4;
+    background-color: #e8c8ec;
     padding: 50px;
     z-index: -2;
 }
 
 #bannerText {
     position: relative;
-    text-align: center;
 }
 
 #bannerImage {
     position: relative;
-    top: 5px;
+    top: -10px;
     z-index: -1;
     height: 150px;
-    right: -120px;
+    right: -130px;
 }
 
 #hello {
     position: relative;
     font-size: 50px;
-    left: -110px;
 }
 
 #welcome {
     position: relative;
-    left: -100px;
+    left: 65px;
 }
 
 #imageOfMe{
