@@ -39,12 +39,10 @@
 }
 
 #aboutMe {
-    position: relative;
     padding-top: 100px;
 }
 
 #aboutMeText {
-    position: relative;
     top: 40px;
 }
 
@@ -55,6 +53,7 @@
 }
 
 nav {
+    top: 0%;
     background-color: #ec8aab;
     position: fixed;
     width: 100%;

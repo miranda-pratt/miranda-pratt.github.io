@@ -3,7 +3,7 @@ $('#nav-item-1').addClass("active");
 /* Smooth scrolling */
 $("#nav-item-1").click(function() {
     $('html, body').animate({
-        scrollTop:        $("#welcomeSection").offset().top-66
+        scrollTop:        $("#welcomeSection").offset().top-112
     }, 1000);
     return false;
 });
