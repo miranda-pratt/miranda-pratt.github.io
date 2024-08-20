@@ -84,7 +84,7 @@ nav {
     transition: all 0.3s ease-out;
 }
 .active {
-    border-bottom: 2px solid #d0d7d9;
+    border-bottom: 2px solid #fde102;
 }
 .container p{
     margin-bottom: 16px;
