@@ -34,16 +34,18 @@
     position: relative;
     width: 250px;
     height: 325px;
-    top: 20px;
-    right: -100px;
+    /*top: 20px;*/
+    left: 100px;
+    z-index: -2;
+
 }
 
-#aboutMe {
-    padding-top: 100px;
-}
+/*#aboutMe {*/
+/*    padding-top: 100px;*/
+/*}*/
 
-#aboutMeText {
-    top: 40px;
+#aboutMeSection {
+    padding-top: 150px;
 }
 
 .logos {
@@ -90,4 +92,20 @@ nav {
     color: #fc0;
     font-weight: 700;
     font-size: 20px;
+}
+
+#mySkillsSection {
+    padding-top: 150px;
+}
+
+#universityProjectsSection{
+    padding-top: 150px;
+}
+
+#sideProjectsSection{
+    padding-top: 150px;
+}
+
+#contactMeSection{
+    padding-top: 150px;
 }
