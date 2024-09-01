@@ -14,21 +14,20 @@
     position: relative;
     top: -10px;
     z-index: -1;
-    height: 15rem;
+    height: 20rem;
     left: 50px;
 }
 
 #hello {
     position: relative;
     font-size: 3.3rem;
-    left: -200px;
+    right: 50px;
     top: 50px;
 }
 
 #welcome {
     position: relative;
     top: 50px;
-    left: -120px;
 }
 
 #imageOfMe{
@@ -36,7 +35,7 @@
     width: 250px;
     height: 325px;
     top: 20px;
-    left: 100px;
+    left: 150px;
     z-index: -2;
 
 }
@@ -45,9 +44,15 @@
     padding-top: 150px;
 }
 
-#aboutMeText{
+#skillsImage {
     position: relative;
-    top: 40px;
+    top: 20px;
+    right: 50px;
+    z-index: -1;
+}
+
+#skillsText{
+    right: 200px;
 }
 
 .logos {
@@ -109,4 +114,14 @@ nav {
 
 #contactMeSection{
     padding-top: 150px;
+}
+
+#mySkillsContent{
+    padding-top: 20px;
+}
+
+.headers {
+    color: purple;
+    text-decoration: underline;
+    font-weight: bold;
 }
