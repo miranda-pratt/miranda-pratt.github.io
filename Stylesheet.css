@@ -1,4 +1,4 @@
-#banner {
+#welcomeSection {
     position: relative;
     background-color: #e8c8ec;
     z-index: -2;
@@ -14,38 +14,40 @@
     position: relative;
     top: -10px;
     z-index: -1;
-    height: 20rem;
-    right: -100px;
+    height: 15rem;
+    left: 50px;
 }
 
 #hello {
     position: relative;
-    font-size: 50px;
-    right: 50px;
+    font-size: 3.3rem;
+    left: -200px;
     top: 50px;
 }
 
 #welcome {
     position: relative;
     top: 50px;
+    left: -120px;
 }
 
 #imageOfMe{
     position: relative;
     width: 250px;
     height: 325px;
-    /*top: 20px;*/
+    top: 20px;
     left: 100px;
     z-index: -2;
 
 }
 
-/*#aboutMe {*/
-/*    padding-top: 100px;*/
-/*}*/
-
 #aboutMeSection {
     padding-top: 150px;
+}
+
+#aboutMeText{
+    position: relative;
+    top: 40px;
 }
 
 .logos {
@@ -55,7 +57,6 @@
 }
 
 nav {
-    top: 0%;
     background-color: #ec8aab;
     position: fixed;
     width: 100%;
