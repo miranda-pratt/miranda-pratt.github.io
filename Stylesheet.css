@@ -129,10 +129,15 @@ nav {
 .icon-and-caption {
     width: 80px;
     text-align: center;
-    display: inline-block;
+    display: inline-grid;
 }
 
 .icon-and-caption img {
     display: block;
     margin: 0 auto;
+}
+
+.skillsLabels {
+    position: relative;
+    top: 20px;
 }
