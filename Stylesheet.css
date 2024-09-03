@@ -37,11 +37,6 @@
     top: 20px;
     left: 150px;
     z-index: -2;
-
-}
-
-#aboutMeSection {
-    padding-top: 150px;
 }
 
 #skillsImage {
@@ -65,6 +60,7 @@ nav {
     background-color: #ec8aab;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .container {
@@ -98,22 +94,6 @@ nav {
     color: #fc0;
     font-weight: 700;
     font-size: 20px;
-}
-
-#mySkillsSection {
-    padding-top: 150px;
-}
-
-#universityProjectsSection{
-    padding-top: 150px;
-}
-
-#sideProjectsSection{
-    padding-top: 150px;
-}
-
-#contactMeSection{
-    padding-top: 150px;
 }
 
 #mySkillsContent{
