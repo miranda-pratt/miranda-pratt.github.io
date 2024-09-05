@@ -121,3 +121,11 @@ nav {
     position: relative;
     top: 20px;
 }
+.contact-icons {
+    width: 8%;
+    padding: 10px;
+}
+
+.contact-icons-text{
+    display: block;
+}
