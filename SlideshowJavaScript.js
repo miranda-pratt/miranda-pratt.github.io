@@ -1,6 +1,6 @@
-let slideIndex = [1,1,1,1];
+let slideIndex = [1,1,1,1,1];
 /* Class the members of each slideshow group with different CSS classes */
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"];
 
 if (document.readyState === "loading") {
     // Loading hasn't finished yet
@@ -15,6 +15,7 @@ function displaySlides() {
     showSlides(1, 1);
     showSlides(1, 2);
     showSlides(1, 3);
+    showSlides(1, 4);
 }
 
 function plusSlides(n, no) {
