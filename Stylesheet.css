@@ -153,6 +153,10 @@ nav {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+    .container {
+        position: sticky;
+        top: 0;
+    }
     .container ul li:not(:first-child) {display: none;}
     #hamburgerBarsIcon {
         display: block;
