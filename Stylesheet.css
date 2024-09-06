@@ -86,8 +86,9 @@ nav {
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
-.active {
+.activeNavbar {
     border-bottom: 2px solid #fde102;
+    background-color: #60975b;
 }
 .container p{
     margin-bottom: 16px;
