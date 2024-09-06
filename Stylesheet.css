@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #welcomeSection {
     position: relative;
     background-color: #e8c8ec;

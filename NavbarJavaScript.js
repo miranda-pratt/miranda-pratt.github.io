@@ -55,33 +55,104 @@ $(document).ready(function() {
         return false;
     });
 
-    $('#aboutMeSection').waypoint(function() {
+    function updateNavbar(itemToUpdate) {
         $(".container ul li").children().removeClass("activeNavbar");
-        $("#nav-item-2").addClass("activeNavbar");
-    }, { offset: "50%" });
+        $(itemToUpdate).addClass("activeNavbar");
+    }
 
-    $('#mySkillsSection').waypoint(function() {
-        $(".container ul li").children().removeClass("activeNavbar");
-        $("#nav-item-3").addClass("activeNavbar");
-    }, { offset: "50%" });
+    $('#aboutMeSection').waypoint(function(direction) {
+        if (direction === 'down') {
+            updateNavbar("#nav-item-2");
+        }
+    }, {
+        offset: '50%'
+    });
 
-    $('#universityProjectsSection').waypoint(function() {
-        $(".container ul li").children().removeClass("activeNavbar");
-        $("#nav-item-4").addClass("activeNavbar");
-    }, { offset: "50%" });
+    $('#aboutMeSection').waypoint(function(direction) {
+        if (direction === 'up') {
+            updateNavbar("#nav-item-2");
+        }
+    }, {
+        offset: '20%'
+    });
 
-    $('#sideProjectsSection').waypoint(function() {
-        $(".container ul li").children().removeClass("activeNavbar");
-        $("#nav-item-5").addClass("activeNavbar");
-    }, { offset: "50%" });
+    $('#mySkillsSection').waypoint(function(direction) {
+        if (direction === 'down') {
+            updateNavbar("#nav-item-3");
+        }
+    }, {
+        offset: '50%'
+    });
 
-    $('#contactSection').waypoint(function() {
-        $(".container ul li").children().removeClass("activeNavbar");
-        $("#nav-item-6").addClass("activeNavbar");
-    }, { offset: "100%" });
+    $('#mySkillsSection').waypoint(function(direction) {
+        if (direction === 'up') {
+            updateNavbar("#nav-item-3");
+        }
+    }, {
+        offset: 'bottom-in-view'
+    });
 
-    $('#welcomeSection').waypoint(function() {
-        $(".container ul li").children().removeClass("activeNavbar");
-        $("#nav-item-1").addClass("activeNavbar");
-    }, { offset: "50%" });
+    $('#universityProjectsSection').waypoint(function(direction) {
+        if (direction === 'down') {
+            updateNavbar("#nav-item-4");
+        }
+    }, {
+        offset: '50%'
+    });
+
+    $('#universityProjectsSection').waypoint(function(direction) {
+        if (direction === 'up') {
+            updateNavbar("#nav-item-4");
+        }
+    }, {
+        offset: 'bottom-in-view'
+    });
+
+    $('#sideProjectsSection').waypoint(function(direction) {
+        if (direction === 'down') {
+            updateNavbar("#nav-item-5");
+        }
+    }, {
+        offset: '50%'
+    });
+
+    $('#sideProjectsSection').waypoint(function(direction) {
+        if (direction === 'up') {
+            updateNavbar("#nav-item-5");
+        }
+    }, {
+        offset: 'bottom-in-view'
+    });
+
+    $('#contactSection').waypoint(function(direction) {
+        if (direction === 'down') {
+            updateNavbar("#nav-item-6");
+        }
+    }, {
+        offset: '50%'
+    });
+
+    $('#contactSection').waypoint(function(direction) {
+        if (direction === 'up') {
+            updateNavbar("#nav-item-6");
+        }
+    }, {
+        offset: 'bottom-in-view'
+    });
+
+    $('#welcomeSection').waypoint(function(direction) {
+        if (direction === 'down') {
+            updateNavbar("#nav-item-1");
+        }
+    }, {
+        offset: '50%'
+    });
+
+    $('#welcomeSection').waypoint(function(direction) {
+        if (direction === 'up') {
+            updateNavbar("#nav-item-1");
+        }
+    }, {
+        offset: -100
+    });
 });
