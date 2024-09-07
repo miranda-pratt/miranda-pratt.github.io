@@ -1,0 +1,31 @@
+#welcomeSection {
+    position: relative;
+    background-color: #e8c8ec;
+    z-index: -2;
+    padding-top: 12rem;
+    height: 100vh;
+}
+
+#bannerText {
+    position: relative;
+}
+
+#bannerImage {
+    position: relative;
+    top: -10px;
+    z-index: -1;
+    height: 20rem;
+    left: 50px;
+}
+
+#hello {
+    position: relative;
+    font-size: 3.3rem;
+    right: 50px;
+    top: 50px;
+}
+
+#welcome {
+    position: relative;
+    top: 50px;
+}
