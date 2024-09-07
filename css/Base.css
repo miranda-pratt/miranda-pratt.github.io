@@ -7,8 +7,13 @@ html {
     width: 250px;
     height: 325px;
     top: 20px;
-    left: 150px;
+    left: 35%;
     z-index: -2;
+}
+
+#aboutMeText {
+    position: relative;
+    left: 5%;
 }
 
 .sectionImage {
