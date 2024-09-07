@@ -1,11 +1,12 @@
-#skillsText{
-    right: 200px;
+#skillsText {
+    position: relative;
+    left: 5%;
 }
 
 .logos {
     height: 80px;
     width: 80px;
-    padding: 20px;
+    padding: 20%;
 }
 
 #mySkillsContent{
@@ -25,5 +26,12 @@
 
 .skillsLabels {
     position: relative;
+    padding-bottom: 2%;
     top: 20px;
+    left: 5%;
+}
+
+.skillsIcons {
+    position: relative;
+    left: 4%;
 }
