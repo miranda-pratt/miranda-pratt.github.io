@@ -15,17 +15,18 @@
     top: -10px;
     z-index: -1;
     height: 20rem;
-    left: 50px;
+    left: 20%;
 }
 
 #hello {
     position: relative;
     font-size: 3.3rem;
-    right: 50px;
     top: 50px;
+    left: 10%;
 }
 
 #welcome {
     position: relative;
     top: 50px;
+    left: 20%;
 }
