@@ -28,3 +28,8 @@ html {
     text-decoration: underline;
     font-weight: bold;
 }
+
+#universityProjectsSection {
+    position: relative;
+    padding-left: 5%;
+}
