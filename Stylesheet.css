@@ -18,16 +18,6 @@ html {
     z-index: -1;
 }
 
-#skillsText{
-    right: 200px;
-}
-
-.logos {
-    height: 80px;
-    width: 80px;
-    padding: 20px;
-}
-
 nav {
     background-color: #ec8aab;
     position: fixed;
@@ -69,31 +59,12 @@ nav {
     font-size: 20px;
 }
 
-#mySkillsContent{
-    padding-top: 20px;
-}
-
 .headers {
     color: purple;
     text-decoration: underline;
     font-weight: bold;
 }
 
-.icon-and-caption {
-    width: 80px;
-    text-align: center;
-    display: inline-grid;
-}
-
-.icon-and-caption img {
-    display: block;
-    margin: 0 auto;
-}
-
-.skillsLabels {
-    position: relative;
-    top: 20px;
-}
 .contact-icons {
     width: 8%;
     display: inline-block;
