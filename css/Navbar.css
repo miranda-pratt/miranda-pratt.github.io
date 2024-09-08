@@ -6,25 +6,26 @@ nav {
 }
 
 .container {
-    padding: 22px;
-    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 0;
     text-align: center;
 }
 
 .container ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 1.5%;
     display: inline-block;
 }
 
 .container ul li a:hover {
-    padding: 12px;
+    padding: 5px;
     color: #fc0;
 }
 
 .container ul li a {
-    margin: 8px;
-    padding: 10px;
+    margin: 2px;
+    padding: 5px;
     color: #fff;
     font-size: 1.2em;
     text-decoration: none;
