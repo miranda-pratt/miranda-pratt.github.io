@@ -56,6 +56,7 @@ nav {
         top: 0;
     }
     .container ul li:not(:first-child) {display: none;}
+    .container ul li:is(:first-child) {position: relative; left: -4%}
     #hamburgerBarsIcon {
         display: block;
         float: right;
@@ -65,14 +66,16 @@ nav {
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     #hamburgerBarsIcon {
-        position: absolute;
-        right: 0;
-        top: 0;
+        position: fixed;
+        right: 5%;
+        top: 4%;
     }
     .topnav.responsive ul li {
+        position: relative;
         float: none;
         display: block;
         padding: 2%;
         text-align: center;
+        left: -4%;
     }
 }
