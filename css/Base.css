@@ -4,8 +4,8 @@ html {
 
 .sectionImage {
     position: relative;
-    top: 20px;
-    right: 50px;
+    left: -10%;
+    top: 10%;
     z-index: -1;
 }
 
@@ -23,4 +23,10 @@ html {
 #sideProjectsSection {
     position: relative;
     padding-left: 5%;
+}
+
+@media screen and (max-width: 770px) {
+    .sectionImage {
+        display: none !important;
+    }
 }
