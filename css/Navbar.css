@@ -7,7 +7,7 @@ nav {
 
 .container {
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     margin: 0 0;
     text-align: center;
 }
@@ -15,6 +15,7 @@ nav {
 .container ul li {
     list-style: none;
     margin: 0 1.5%;
+    margin-bottom: 2%;
     display: inline-block;
 }
 
