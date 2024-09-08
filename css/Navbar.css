@@ -34,13 +34,12 @@ nav {
 }
 
 .activeNavbar {
-    border-bottom: 2px solid #fde102;
-    background-color: #60975b;
+    background-color: purple;
 }
 
 .container p{
     margin-bottom: 16px;
-    color: #fc0;
+    color: purple;
     font-weight: 700;
     font-size: 20px;
 }

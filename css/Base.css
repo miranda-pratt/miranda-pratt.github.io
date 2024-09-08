@@ -25,6 +25,11 @@ html {
     padding-left: 5%;
 }
 
+#footer {
+    position: relative;
+    padding-left: 5%;
+}
+
 @media screen and (max-width: 770px) {
     .sectionImage {
         display: none !important;
