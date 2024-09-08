@@ -1,0 +1,36 @@
+#imageOfMe{
+    position: relative;
+    height: auto;
+    width: 50%;
+    top: 5%;
+    left: 20%;
+    z-index: -2;
+}
+
+#aboutMeText {
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+   #aboutMeText {
+       padding-right: 5%;
+   }
+}
+
+@media screen and (max-width: 700px) {
+    #imageOfMe {
+        position: relative;
+        display: block;
+        left: 20%;
+        right: 0;
+        top: 0;
+    }
+    #aboutMeText {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+}
