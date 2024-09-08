@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Miranda Pratt Portfolio</title>
-    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="css/Base.css">
+    <link rel="stylesheet" href="css/WelcomeSection.css">
+    <link rel="stylesheet" href="css/SkillsSection.css">
+    <link rel="stylesheet" href="css/Navbar.css">
+    <link rel="stylesheet" href="css/Contact.css">
     <script src="https://kit.fontawesome.com/daf626e0e3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="jquery.waypoints.min.js"></script>
-    <script src="NavbarJavaScript.js"></script>
-    <link rel="stylesheet" href="Slideshow.css">
-    <script src="SlideshowJavaScript.js"></script>
+    <script src="javascript/jquery.waypoints.min.js"></script>
+    <script src="javascript/NavbarJavaScript.js"></script>
+    <link rel="stylesheet" href="css/Slideshow.css">
+    <script src="javascript/SlideshowJavaScript.js"></script>
 </head>
 <body>
     <nav class="topnav" id="topnav">
@@ -32,17 +36,16 @@
     </nav>
     <div class = "container-fluid" id = "welcomeSection">
         <div class = "row">
-            <div class="col">
-                <img
-                        src = "Banner%20Image.png"
-                        alt= "Banner Image of a computer with a symbol to represent programming code"
-                        id = "bannerImage"
-                />
-
-            </div>
             <div class="col" id = "bannerText">
                 <h1 id = "hello"><strong>Hello, I'm Miranda Pratt</strong></h1>
                 <h3 id = "welcome">Welcome to my portfolio website</h3>
+            </div>
+            <div class="col">
+                <img
+                        src = "images/Banner%20Image.png"
+                        alt= "Banner Image of a computer with a symbol to represent programming code"
+                        id = "bannerImage"
+                />
             </div>
         </div>
     </div>
@@ -51,9 +54,6 @@
 
     <div class = "container-fluid" id = "aboutMeSection">
         <div class = "row" id = "aboutMe">
-            <div class="col">
-                <img src="Miranda%20Pratt%20Photo.jpg" alt="Photo of Miranda Pratt" id = "imageOfMe"/>
-            </div>
             <div class="col" id = "aboutMeText">
                 <h2 class = "headers">About Me</h2>
                 <p>I'm an aspiring software developer. I've completed a year in industry with Oxford Economics and I'm
@@ -70,6 +70,9 @@
                     and teamwork skills for collaborative and professional software development.
                 </p>
             </div>
+            <div class="col">
+                <img src="images/Miranda%20Pratt%20Photo.jpg" alt="Photo of Miranda Pratt" id = "imageOfMe"/>
+            </div>
         </div>
     </div>
 
@@ -78,9 +81,6 @@
     <div class = "container-fluid" id = "mySkillsSection">
         <hr>
         <div class = "row" id = "mySkillsContent">
-            <div class="col d-flex justify-content-center">
-                <i class="sectionImage fa-solid fa-pen fa-6x" style="color: #f9a9f2;"></i>
-            </div>
             <div class="col" id="skillsText">
                 <h2 class="headers">My Skills</h2>
                 <p>I am experienced in a wide range of programming languages, libraries, frameworks, technologies and
@@ -88,12 +88,18 @@
                     through university, secondary school, work experience or through personal projects.
                 </p>
             </div>
+            <div class="col d-flex justify-content-center">
+                <i class="sectionImage fa-solid fa-pen fa-6x" style="color: #f9a9f2;"></i>
+            </div>
         </div>
 
         <br>
 
         <div class = "row">
-            <div class="col">
+            <div class="skillsLabels">
+                Programming Languages
+            </div>
+            <div class="col skillsIcons">
                 <div class = "icon-and-caption">
                     <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
@@ -148,13 +154,12 @@
                     <p>MySQL</p>
                 </div>
             </div>
-            <div class="col skillsLabels">
-                Programming Languages
-            </div>
         </div>
         <div class = "row">
-            <div class="col">
-
+            <div class="skillsLabels">
+                Web Development
+            </div>
+            <div class="col skillsIcons">
                 <div class = "icon-and-caption">
                     <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
@@ -218,12 +223,12 @@
                     <p>SASS</p>
                 </div>
             </div>
-            <div class="col skillsLabels">
-                Web Development
-            </div>
         </div>
         <div class = "row">
-            <div class="col">
+            <div class="skillsLabels">
+                Libraries and Frameworks
+            </div>
+            <div class="col skillsIcons">
                 <div class = "icon-and-caption">
                     <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
@@ -278,13 +283,12 @@
                     <p>Nuget</p>
                 </div>
             </div>
-            <div class="col skillsLabels">
-                Libraries and Frameworks
-            </div>
         </div>
         <div class="row">
-            <div class="col">
-
+            <div class="skillsLabels">
+                Development Tools
+            </div>
+            <div class="col skillsIcons">
                 <div class = "icon-and-caption">
                     <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg"
@@ -348,13 +352,12 @@
                     <p>PyCharm</p>
                 </div>
             </div>
-            <div class="col skillsLabels">
-                Development Tools
-            </div>
         </div>
         <div class="row">
-            <div class="col">
-
+            <div class="skillsLabels">
+                Hardware and operating systems
+            </div>
+            <div class="col skillsIcons">
                 <div class = "icon-and-caption">
                     <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
@@ -400,13 +403,12 @@
                     <p>Linux</p>
                 </div>
             </div>
-            <div class="col skillsLabels">
-                Hardware and operating systems
-            </div>
         </div>
         <div class="row">
-            <div class="col">
-
+            <div class="skillsLabels">
+                Other development tools
+            </div>
+            <div class="col skillsIcons">
                 <div class = "icon-and-caption">
                     <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
@@ -479,9 +481,6 @@
                     <p>YAML</p>
                 </div>
             </div>
-            <div class="col skillsLabels">
-                Other development tools
-            </div>
         </div>
     </div>
 
@@ -490,9 +489,6 @@
     <div class = "container-fluid" id = "universityProjectsSection">
         <hr>
         <div class = "row">
-            <div class = "col d-flex justify-content-center">
-                <i class="sectionImage fa-solid fa-graduation-cap fa-6x" style="color: #f9a9f2;"></i>
-            </div>
             <div class = "col">
                 <h2 class="headers">University projects</h2>
                 <p>
@@ -505,51 +501,12 @@
                 </p>
                 <br>
             </div>
+            <div class = "col d-flex justify-content-center">
+                <i class="sectionImage fa-solid fa-graduation-cap fa-6x" style="color: #f9a9f2;"></i>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="slideshow-container">
-                    <div class="mySlides1">
-                        <img
-                                src="University%20Accommodation%20Website/Home%20Page%20Mobile%20View.png"
-                                style="width:100%"
-                                alt="University accommodation website project home page mobile view">
-                        <div class="text">University accommodation website project home page mobile view</div>
-                        <div class="numberText">1 / 4</div>
-                    </div>
-
-                    <div class="mySlides1">
-                        <img
-                                src="University%20Accommodation%20Website/Budget%20Tool%20Mobile%20View.png"
-                                style="width:100%"
-                                alt="University accommodation website project budget tool">
-                        <div class="text">University accommodation website project budget tool</div>
-                        <div class="numberText">2 / 4</div>
-                    </div>
-
-                    <div class="mySlides1">
-                        <img
-                                src="University%20Accommodation%20Website/PHP%20Code%20Result.png"
-                                style="width:100%"
-                                alt="University accommodation website PHP code result">
-                        <div class="text">University accommodation website PHP code for project budget tool</div>
-                        <div class="numberText">3 / 4</div>
-                    </div>
-
-                    <div class="mySlides1">
-                        <img
-                                src="University%20Accommodation%20Website/View%20my%20details%20Desktop%20View.png"
-                                style="width:100%"
-                                alt="University accommodation website project view my details">
-                        <div class="text">University accommodation website project view my details</div>
-                        <div class="numberText">4 / 4</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                </div>
-            </div>
             <div class="col">
                 <h4>University Accommodation Website</h4>
                 For the module 'Web and Database Systems' in my 1st year I had to develop a front-end website that interacts with a back-end
@@ -604,36 +561,54 @@
                             <p>MySQL</p>
                         </div>
                     </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="slideshow-container">
+                    <div class="mySlides1">
+                        <img
+                                src="images/University%20Accommodation%20Website/Home%20Page%20Mobile%20View.png"
+                                style="width:100%"
+                                alt="University accommodation website project home page mobile view">
+                        <div class="text">University accommodation website project home page mobile view</div>
+                        <div class="numberText">1 / 4</div>
                     </div>
 
+                    <div class="mySlides1">
+                        <img
+                                src="images/University%20Accommodation%20Website/Budget%20Tool%20Mobile%20View.png"
+                                style="width:100%"
+                                alt="University accommodation website project budget tool">
+                        <div class="text">University accommodation website project budget tool</div>
+                        <div class="numberText">2 / 4</div>
+                    </div>
+
+                    <div class="mySlides1">
+                        <img
+                                src="images/University%20Accommodation%20Website/PHP%20Code%20Result.png"
+                                style="width:100%"
+                                alt="University accommodation website PHP code result">
+                        <div class="text">University accommodation website PHP code for project budget tool</div>
+                        <div class="numberText">3 / 4</div>
+                    </div>
+
+                    <div class="mySlides1">
+                        <img
+                                src="images/University%20Accommodation%20Website/View%20my%20details%20Desktop%20View.png"
+                                style="width:100%"
+                                alt="University accommodation website project view my details">
+                        <div class="text">University accommodation website project view my details</div>
+                        <div class="numberText">4 / 4</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
             </div>
         </div>
         <br><br>
         <div class = "row">
-            <div class = "col">
-                <div class="slideshow-container">
-                    <div class="mySlides2">
-                        <img
-                                src="Software%20Engineering/Sequence%20Diagram%201.jpg"
-                                style="width:100%"
-                                alt="Sequence Diagram 1">
-                        <div class="text">Software Engineering Sequence Diagram 1</div>
-                        <div class="numberText">1 / 2</div>
-                    </div>
-
-                    <div class="mySlides2">
-                        <img
-                                src="Software%20Engineering/Sequence%20Diagram%202.png"
-                                style="width:100%"
-                                alt="Sequence Diagram 2">
-                        <div class="text">Software Engineering Sequence Diagram 2</div>
-                        <div class="numberText">2 / 2</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-                </div>
-            </div>
             <div class = "col">
                 <h4>Database analytics program</h4>
                 <p>
@@ -685,42 +660,33 @@
                     </div>
                 </div>
             </div>
+            <div class = "col">
+                <div class="slideshow-container">
+                    <div class="mySlides2">
+                        <img
+                                src="images/Software%20Engineering/Sequence%20Diagram%201.jpg"
+                                style="width:100%"
+                                alt="Sequence Diagram 1">
+                        <div class="text">Software Engineering Sequence Diagram 1</div>
+                        <div class="numberText">1 / 2</div>
+                    </div>
+
+                    <div class="mySlides2">
+                        <img
+                                src="images/Software%20Engineering/Sequence%20Diagram%202.png"
+                                style="width:100%"
+                                alt="Sequence Diagram 2">
+                        <div class="text">Software Engineering Sequence Diagram 2</div>
+                        <div class="numberText">2 / 2</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+            </div>
         </div>
         <br><br>
         <div class="row">
-            <div class="col">
-                <div class="slideshow-container">
-                    <div class="mySlides3">
-                        <img
-                                src="Web%20Applications%20Development/Home%20Page.png"
-                                style="width:100%"
-                                alt="Club Management System Home Page">
-                        <div class="text">Club Management System Home Page</div>
-                        <div class="numberText">1 / 3</div>
-                    </div>
-
-                    <div class="mySlides3">
-                        <img
-                                src="Web%20Applications%20Development/Staff%20Page.png"
-                                style="width:100%"
-                                alt="Club Management System view all staff">
-                        <div class="text">Club Management System view all staff</div>
-                        <div class="numberText">2 / 3</div>
-                    </div>
-
-                    <div class="mySlides3">
-                        <img
-                                src="Web%20Applications%20Development/Detail%20View.png"
-                                style="width:100%"
-                                alt="Staff detail view">
-                        <div class="text">Staff detail view</div>
-                        <div class="numberText">3 / 3</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-                </div>
-            </div>
             <div class="col">
                 <h4>School club management system</h4>
                 <p>
@@ -805,51 +771,42 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="slideshow-container">
+                    <div class="mySlides3">
+                        <img
+                                src="images/Web%20Applications%20Development/Home%20Page.png"
+                                style="width:100%"
+                                alt="Club Management System Home Page">
+                        <div class="text">Club Management System Home Page</div>
+                        <div class="numberText">1 / 3</div>
+                    </div>
+
+                    <div class="mySlides3">
+                        <img
+                                src="images/Web%20Applications%20Development/Staff%20Page.png"
+                                style="width:100%"
+                                alt="Club Management System view all staff">
+                        <div class="text">Club Management System view all staff</div>
+                        <div class="numberText">2 / 3</div>
+                    </div>
+
+                    <div class="mySlides3">
+                        <img
+                                src="images/Web%20Applications%20Development/Detail%20View.png"
+                                style="width:100%"
+                                alt="Staff detail view">
+                        <div class="text">Staff detail view</div>
+                        <div class="numberText">3 / 3</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                </div>
+            </div>
         </div>
         <br><br>
         <div class = "row">
-            <div class = "col">
-                <div class="slideshow-container">
-                    <div class="mySlides4">
-                        <img
-                                src="Group%20Project/Recipe%20Search%20Page.png"
-                                style="width:100%"
-                                alt="Recipe search page">
-                        <div class="text">Recipe search page</div>
-                        <div class="numberText">1 / 4</div>
-                    </div>
-
-                    <div class="mySlides4">
-                        <img
-                                src="Group%20Project/Filters%20Page.png"
-                                style="width:100%"
-                                alt="Recipe filters page">
-                        <div class="text">Recipe filters page</div>
-                        <div class="numberText">2 / 4</div>
-                    </div>
-
-                    <div class="mySlides4">
-                        <img
-                                src="Group%20Project/Diary%20Page.png"
-                                style="width:100%"
-                                alt="Diary Page">
-                        <div class="text">Diary page</div>
-                        <div class="numberText">3 / 4</div>
-                    </div>
-
-                    <div class="mySlides4">
-                        <img
-                                src="Group%20Project/Cooking%20Guide%20Page.png"
-                                style="width:100%"
-                                alt="Cooking guide page">
-                        <div class="text">Cooking guide page</div>
-                        <div class="numberText">4 / 4</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-                </div>
-            </div>
             <div class = "col">
                 <h4>Food diary web application</h4>
                 <p>
@@ -944,35 +901,52 @@
                     </div>
                 </div>
             </div>
+            <div class = "col">
+                <div class="slideshow-container">
+                    <div class="mySlides4">
+                        <img
+                                src="images/Group%20Project/Recipe%20Search%20Page.png"
+                                style="width:100%"
+                                alt="Recipe search page">
+                        <div class="text">Recipe search page</div>
+                        <div class="numberText">1 / 4</div>
+                    </div>
+
+                    <div class="mySlides4">
+                        <img
+                                src="images/Group%20Project/Filters%20Page.png"
+                                style="width:100%"
+                                alt="Recipe filters page">
+                        <div class="text">Recipe filters page</div>
+                        <div class="numberText">2 / 4</div>
+                    </div>
+
+                    <div class="mySlides4">
+                        <img
+                                src="images/Group%20Project/Diary%20Page.png"
+                                style="width:100%"
+                                alt="Diary Page">
+                        <div class="text">Diary page</div>
+                        <div class="numberText">3 / 4</div>
+                    </div>
+
+                    <div class="mySlides4">
+                        <img
+                                src="images/Group%20Project/Cooking%20Guide%20Page.png"
+                                style="width:100%"
+                                alt="Cooking guide page">
+                        <div class="text">Cooking guide page</div>
+                        <div class="numberText">4 / 4</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                </div>
             </div>
-        </div>
+            </div>
 
         <br><br>
         <div class="row">
-            <div class="col">
-                <div class="slideshow-container">
-                    <div class="mySlides5">
-                        <img
-                                src="AI/Model%20Summary.png"
-                                style="width:100%"
-                                alt="Model Summary">
-                        <div class="text">Model Summary</div>
-                        <div class="numberText">1 / 2</div>
-                    </div>
-
-                    <div class="mySlides5">
-                        <img
-                                src="AI/Training%20Stats.png"
-                                style="width:100%"
-                                alt="Training Statistics">
-                        <div class="text">Training statistics</div>
-                        <div class="numberText">2 / 2</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-                </div>
-            </div>
             <div class="col">
                 <h4>AI models</h4>
                 <p>
@@ -1007,25 +981,46 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="slideshow-container">
+                    <div class="mySlides5">
+                        <img
+                                src="images/AI/Model%20Summary.png"
+                                style="width:100%"
+                                alt="Model Summary">
+                        <div class="text">Model Summary</div>
+                        <div class="numberText">1 / 2</div>
+                    </div>
+
+                    <div class="mySlides5">
+                        <img
+                                src="images/AI/Training%20Stats.png"
+                                style="width:100%"
+                                alt="Training Statistics">
+                        <div class="text">Training statistics</div>
+                        <div class="numberText">2 / 2</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                </div>
+            </div>
         </div>
-    <br> <br>
+        <br> <br>
     </div>
 
     <div class = "container-fluid" id = "sideProjectsSection">
         <hr>
         <div class = "row">
-            <div class = "col d-flex justify-content-center">
-                <i class="sectionImage fa-solid fa-laptop-code fa-6x" style="color: #f9a9f2;"></i>
-            </div>
             <div class = "col">
                 <h2 class="headers">Side Projects</h2>
                 <br>
             </div>
+            <div class = "col d-flex justify-content-center">
+                <i class="sectionImage fa-solid fa-laptop-code fa-6x" style="color: #f9a9f2;"></i>
+            </div>
         </div>
         <div class = "row">
-          <div class = "col">
-
-          </div>
             <div class = "col">
                 <h4>Portfolio Website</h4>
                 <p>
@@ -1080,13 +1075,13 @@
                     </div>
                 </div>
             </div>
+            <div class = "col">
+
+            </div>
         </div>
         <br> <br>
 
         <div class="row">
-            <div class="col">
-
-            </div>
             <div class="col">
                 <h4>EPQ Calculator Project</h4>
                 <p>
@@ -1125,13 +1120,13 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+
+            </div>
         </div>
         <br><br>
 
         <div class="row">
-            <div class="col">
-
-            </div>
             <div class="col">
                 <h4>Java FX True False Game</h4>
                 <p>
@@ -1160,12 +1155,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <br><br>
-        <div class = "row">
             <div class="col">
 
             </div>
+        </div>
+        <br><br>
+        <div class = "row">
             <div class="col">
                 <h4>Raspberry Pi Thermometer and data analytics program</h4>
                 <p>
@@ -1197,12 +1192,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <br><br>
-        <div class="row">
             <div class="col">
 
             </div>
+        </div>
+        <br><br>
+        <div class="row">
             <div class="col">
                 <h4>Android app development with Kotlin </h4>
                 <p>
@@ -1240,6 +1235,9 @@
                 </div>
                 <br>
             </div>
+            <div class="col">
+
+            </div>
         </div>
     </div>
 
@@ -1248,12 +1246,12 @@
     <div class="container-fluid" id = "contactSection">
         <hr>
         <div class = "row" id="contactSectionHeader">
-            <div class="col d-flex justify-content-center">
-                <i class="fa-regular fa-address-card fa-6x" style="color: #f9a9f2;"></i>
-            </div>
             <div class="col">
                 <h2 class="headers">Other Information</h2>
                 <p>Thank you for reading my portfolio website. Please click on the icons below for my LinkedIn and GitHub profiles.</p>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <i class="fa-regular fa-address-card fa-6x" style="color: #f9a9f2;"></i>
             </div>
         </div>
         <div class = "row">

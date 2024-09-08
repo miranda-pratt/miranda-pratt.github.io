@@ -1,0 +1,76 @@
+nav {
+    background-color: #ec8aab;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.container {
+    padding: 22px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.container ul li a:hover {
+    padding: 12px;
+    color: #fc0;
+}
+
+.container ul li a {
+    margin: 8px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.activeNavbar {
+    border-bottom: 2px solid #fde102;
+    background-color: #60975b;
+}
+
+.container p{
+    margin-bottom: 16px;
+    color: #fc0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#hamburgerBarsIcon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .container {
+        position: sticky;
+        top: 0;
+    }
+    .container ul li:not(:first-child) {display: none;}
+    #hamburgerBarsIcon {
+        display: block;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    #hamburgerBarsIcon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive ul li {
+        float: none;
+        display: block;
+        padding: 2%;
+        text-align: center;
+    }
+}

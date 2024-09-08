@@ -1,0 +1,37 @@
+#skillsText {
+    position: relative;
+    left: 5%;
+}
+
+.logos {
+    height: 80px;
+    width: 80px;
+    padding: 20%;
+}
+
+#mySkillsContent{
+    padding-top: 20px;
+}
+
+.icon-and-caption {
+    width: 80px;
+    text-align: center;
+    display: inline-grid;
+}
+
+.icon-and-caption img {
+    display: block;
+    margin: 0 auto;
+}
+
+.skillsLabels {
+    position: relative;
+    padding-bottom: 2%;
+    top: 20px;
+    left: 5%;
+}
+
+.skillsIcons {
+    position: relative;
+    left: 4%;
+}
