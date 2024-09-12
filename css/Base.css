@@ -2,24 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
-#imageOfMe{
-    position: relative;
-    width: 250px;
-    height: 325px;
-    top: 20px;
-    left: 35%;
-    z-index: -2;
-}
-
-#aboutMeText {
-    position: relative;
-    left: 5%;
-}
-
 .sectionImage {
     position: relative;
-    top: 20px;
-    right: 50px;
+    left: -10%;
+    top: 10%;
     z-index: -1;
 }
 
@@ -37,4 +23,15 @@ html {
 #sideProjectsSection {
     position: relative;
     padding-left: 5%;
+}
+
+#footer {
+    position: relative;
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 770px) {
+    .sectionImage {
+        display: none !important;
+    }
 }

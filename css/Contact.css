@@ -1,25 +1,26 @@
 .contact-icons {
-    width: 8%;
+    width: 15%;
     display: inline-block;
 }
 
 .contact-icons-text{
     position: relative;
     display: block;
-    left: -10%;
+    left: -5%;
 }
 
 #LinkedIn{
     position: relative;
-    left: 20%;
+    left: 5%
 }
 
 #GitHub{
     position: relative;
-    left: 20%;
+    left: 5%;
 }
 
 #contactSection {
     position: relative;
     padding-left: 5%;
+    padding-bottom: 5%;
 }

@@ -6,27 +6,64 @@
     height: 100vh;
 }
 
-#bannerText {
-    position: relative;
-}
-
 #bannerImage {
     position: relative;
-    top: -10px;
     z-index: -1;
-    height: 20rem;
-    left: 20%;
+    height: 55%;
+    width: auto;
+    left: 15%;
+    top: 5%;
 }
 
 #hello {
     position: relative;
-    font-size: 3.3rem;
-    top: 50px;
-    left: 10%;
+    font-size: 4vw;
+    top: 20%;
+    left: 15%;
 }
 
 #welcome {
     position: relative;
-    top: 50px;
+    font-size: 2.5vw;
+    top: 20%;
     left: 20%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #bannerImage {
+        height: 35%;
+        width: auto;
+        left: 23%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #welcomeSection {
+        padding-top: 2rem;
+    }
+    #hello {
+        display: block;
+        left: 5%;
+        right: 0;
+        font-size: 7vw;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #welcome {
+        display: block;
+        font-size: 4vw;
+        left: 15%;
+        right: 0;
+        top: 0;
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #bannerImage {
+        display: block;
+        left: 20%;
+        right: 0;
+        top: 0;
+        padding-top: 2%;
+    }
 }
