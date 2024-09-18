@@ -80,3 +80,9 @@ img {
     from {opacity: .4}
     to {opacity: 1}
 }
+
+#appDevImage {
+    position: relative;
+    height: 20rem;
+    width: auto;
+}
